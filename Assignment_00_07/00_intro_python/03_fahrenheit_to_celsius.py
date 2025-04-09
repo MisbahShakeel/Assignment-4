@@ -6,7 +6,7 @@ def main():
 
     # Get the temperature in Fahrenheit from the user
     try:
-        farhenheit = float(input("Enter the temperature in Ferhenheit: "))
+        farhenheit = float(input("\033[1;3m Enter the temperature in Ferhenheit: "))
     except ValueError:
         print("Please enter a valid number.")
         return
